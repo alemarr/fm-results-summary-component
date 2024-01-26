@@ -1,0 +1,41 @@
+:root {
+    /* Primary */
+    --red: #ff5757;
+    --yellow: #ffb01f;
+    --green: #00bd91;
+    --blue: #1125d4;
+
+    /* Gradients */
+    --blue-light-slate: #7857ff;
+    --blue-light-royal: #2e2be9;
+    --blue-violet: rgb(78, 33, 202);
+    --blue-persian: #2421ca00;
+
+
+    /* Neutral */
+    --white: #ffffff;
+    --blue-pale: #ebf1ff;
+    --lavender-light: #c8c7ff;
+    --blue-dark-gray: #303b5a;
+}
+
+@font-face {
+    font-family: Hanken Grotesk;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+html,
+body {
+    background: var(--white);
+    font-family: "Hanken Grotesk";
+    height: 100%;
+}
+
+.attribution { 
+    display: none;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
