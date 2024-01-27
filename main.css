@@ -18,9 +18,11 @@
 
 
     /* Neutral */
+    --lavender-light-values: 241, 100%, 89%;
+
     --white: hsl(0, 0%, 100%);
     --blue-pale: hsl(222, 100%, 96%);
-    --lavender-light: hsl(241, 100%, 89%);
+    --lavender-light: hsl(var(--lavender-light-values));
     --blue-dark-gray: hsl(224, 30%, 27%);
 }
 
@@ -191,7 +193,7 @@ main {
     .container {
         width: fit-content;
         display: flex;
-        box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
+        box-shadow: 5px 3px 7px 5px hsla(var(--lavender-light-values), 20%);
         border-radius: 20px;
     }
 
