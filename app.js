@@ -1,7 +1,7 @@
 window.onload = async () => {
   let data = [];
 
-  await fetch("/data.json")
+  await fetch("/fm-results-summary-component/data.json")
     .then((res) => res.json())
     .then((json) => (data = json));
 
